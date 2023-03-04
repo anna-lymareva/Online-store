@@ -1,1 +1,1 @@
-# Online-store
+# mentoring-simple-webpack-starter
