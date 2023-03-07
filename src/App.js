@@ -1,17 +1,3 @@
-// import { Component } from './core/Component';
-
-// class App extends Component {
-//   render() {
-//     return `
-//     <div>
-//         <h1>Hello</h1>
-//     </div>
-//     `;
-//   }
-// }
-
-// customElements.define('it-app', App);
-
 import { Component } from './core/Component';
 import { routes } from './constants/routes';
 import './components/templates/Header';

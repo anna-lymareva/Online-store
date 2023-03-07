@@ -1,8 +1,8 @@
 export class Component extends HTMLElement {
   constructor() {
     super();
-    this.props = {};
     this.state = {};
+    this.props = {};
   }
 
   setState(callback) {
@@ -13,30 +13,23 @@ export class Component extends HTMLElement {
   connectedCallback() {
     this.componentDidMount();
     this.innerHTML = this.render();
-    this.setProps();
   }
 
   disconnectedCallback() {
-    this.componentWillUnmount();
-    this.innerHTML = this.render();
-  }
-
-  setProps() {
-    this.getAttributeNames().forEach((attributeName) => {
-      this.props[name] = this.getAttribute(attributeName);
-    });
+    this.componentWilUnmount();
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     this.componentWillUpdate(name, oldValue, newValue);
-    this.setProps();
+    this.getAttributeNames().forEach((attributeName) => {
+      this.props[attributeName] = this.getAttribute(attributeName);
+    });
   }
 
   componentDidMount() {}
-
   componentWillUnmount() {}
-
   componentWillUpdate() {}
-
   render() {}
 }
+
+customElements.define('it-component', Component);
