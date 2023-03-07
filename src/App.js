@@ -17,13 +17,11 @@ class App extends Component {
     return `
       <div class="main-layout">
          <it-header categories='${JSON.stringify(appCategories)}'></it-header>
-         <main>
-         <div class="container mt-5 pt-5 border-top">
+         <main>         
             ${
               routes.find((route) => route.href === pathname)?.component ??
               '<error-page></error-page>'
-            }
-            </div>
+            }            
          </main>
          <it-footer></it-footer>
       </div>
