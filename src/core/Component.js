@@ -16,7 +16,7 @@ export class Component extends HTMLElement {
   }
 
   disconnectedCallback() {
-    this.componentWilUnmount();
+    this.componentWillUnmount();
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
