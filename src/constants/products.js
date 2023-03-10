@@ -47,7 +47,7 @@ export const PRODUCTS = [
     title: 'Refined Steel Shoes',
     price: 532,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=3575',
       'https://api.lorem.space/image?w=640&h=480&r=3275',
@@ -381,7 +381,7 @@ export const PRODUCTS = [
     title: 'Generic Cotton Sausages',
     price: 156,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/fashion?w=640&h=480&r=1164',
       'https://api.lorem.space/image/fashion?w=640&h=480&r=1953',
@@ -777,7 +777,7 @@ export const PRODUCTS = [
     title: 'Licensed Granite Ball',
     price: 658,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/shoes?w=640&h=480&r=2152',
       'https://api.lorem.space/image/shoes?w=640&h=480&r=1530',
@@ -964,7 +964,7 @@ export const PRODUCTS = [
     title: 'Luxurious Wooden Hat',
     price: 994,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/furniture?w=640&h=480&r=5790',
       'https://api.lorem.space/image/furniture?w=640&h=480&r=4835',
@@ -1529,7 +1529,7 @@ export const PRODUCTS = [
     title: 'Electronic Metal Fish',
     price: 272,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/furniture?w=640&h=480&r=8215',
       'https://api.lorem.space/image/furniture?w=640&h=480&r=5892',
@@ -1674,7 +1674,7 @@ export const PRODUCTS = [
     title: 'Practical Rubber Cheese',
     price: 314,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/watch?w=640&h=480&r=4837',
       'https://api.lorem.space/image/watch?w=640&h=480&r=951',
@@ -1923,7 +1923,7 @@ export const PRODUCTS = [
     title: 'Gorgeous Steel Towels',
     price: 65,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=5344',
       'https://api.lorem.space/image?w=640&h=480&r=8367',
@@ -1944,7 +1944,7 @@ export const PRODUCTS = [
     title: 'Ergonomic Bronze Tuna',
     price: 255,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/watch?w=640&h=480&r=2453',
       'https://api.lorem.space/image/watch?w=640&h=480&r=254',
@@ -1986,7 +1986,7 @@ export const PRODUCTS = [
     title: 'Handcrafted Frozen Shirt',
     price: 323,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/furniture?w=640&h=480&r=7861',
       'https://api.lorem.space/image/furniture?w=640&h=480&r=3686',
@@ -2110,7 +2110,7 @@ export const PRODUCTS = [
     title: 'Handcrafted Wooden Chicken',
     price: 25,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/watch?w=640&h=480&r=2915',
       'https://api.lorem.space/image/watch?w=640&h=480&r=8293',
@@ -2693,7 +2693,7 @@ export const PRODUCTS = [
     title: 'Rustic Fresh Cheese',
     price: 385,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=2065',
       'https://api.lorem.space/image?w=640&h=480&r=1971',
@@ -3402,7 +3402,7 @@ export const PRODUCTS = [
     title: 'Unbranded Granite Car',
     price: 508,
     description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      'Bostons most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles',
     images: [
       'https://api.lorem.space/image/furniture?w=640&h=480&r=1518',
       'https://api.lorem.space/image/furniture?w=640&h=480&r=1257',
