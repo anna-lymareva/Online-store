@@ -1,10 +1,26 @@
+import { APP_STORAGE_KEYS } from '../../../constants/appStorageKeys';
 import { Component } from '../../../core/Component';
+import { storageServuce } from '../../../services/StorageService';
 import './Cards.scss';
 
 class Cards extends Component {
   static get observedAttributes() {
-    return ['title', 'image', 'description', 'price'];
+    return ['title', 'image', 'description', 'price', 'id'];
   }
+
+  addToCart = (evt) => {
+    if (evt.target.closest('.btn')) {
+      storageServuce.setItem(APP_STORAGE_KEYS.cartData, this.props);
+    }
+  };
+
+  componentDidMount() {
+    this.addEventListener('click', this.addToCart);
+  }
+  componentWillUnmount() {
+    this.removeEventListener('click', this.addToCart);
+  }
+
   render() {
     const { image, title, price, description } = this.props;
     return `

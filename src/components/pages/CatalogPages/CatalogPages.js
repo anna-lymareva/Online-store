@@ -48,13 +48,31 @@ class CatalogPage extends Component {
     });
   };
 
+  onSearch = (evt) => {
+    const { data } = evt.detail;
+    this.setState((state) => {
+      return {
+        ...state,
+        products: PRODUCTS.filter((item) => {
+          return item.title.toLowerCase().includes(data.search.toLowerCase());
+        }),
+        currentPage: 1,
+      };
+    });
+  };
+
   componentDidMount() {
     this.sliceData();
     eventEmmiter.on(APP_EVENTS.changePaginationPage, this.onChangePaginationPage);
     eventEmmiter.on(APP_EVENTS.setCategory, this.onFilterProductsByCategory);
+    eventEmmiter.on(APP_EVENTS.searchProducts, this.onSearch);
   }
 
-  componentWillUnmount() {}
+  componentWillUnmount() {
+    eventEmmiter.off(APP_EVENTS.changePaginationPage, this.onChangePaginationPage);
+    eventEmmiter.off(APP_EVENTS.setCategory, this.onFilterProductsByCategory);
+    eventEmmiter.off(APP_EVENTS.searchProducts, this.onSearch);
+  }
 
   render() {
     return `
@@ -65,10 +83,12 @@ class CatalogPage extends Component {
                   <it-sidebar></it-sidebar>
             </div>
             <div class="col-sm-9">
-                  <it-cards-list products='${JSON.stringify(this.sliceData(this.state.currentPage))}'></it-cards-list>
+                  <it-cards-list products='${JSON.stringify(
+                    this.sliceData(this.state.currentPage),
+                  )}'></it-cards-list>
             <div class="mt-5">
                   <it-pagination 
-                    total="${PRODUCTS.length}"
+                    total="${this.state.products.length}"
                     limit="${this.state.limit}"
                     current="${this.state.currentPage}"
                   ></it-pagination>

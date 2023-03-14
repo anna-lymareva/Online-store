@@ -1,5 +1,6 @@
 export const APP_EVENTS = {
   changePaginationPage: 'changePaginationPage',
   setCategory: 'setCategory',
-  setSearch: 'setSearch',
+  searchProducts: 'searchProducts',
+  storage: 'storage',
 };
